@@ -13,6 +13,8 @@
   }
 }
 
+/*  */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +30,15 @@
   color: #61dafb;
 }
 
+.light{
+  color: black;
+  background: white;
+}
+.dark{
+  color: white;
+  background: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +46,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  height: 3rem;
+  /* background: #fff; */
+  color: white;
+  width: 3rem;
+}
+
+.nav{
+  padding: 0.5rem;
+  background: rgb(209, 194, 194);
+}
+
+.nav-link{
+  cursor: pointer;
+  color: #232323;
+}
+.nav-link:hover{
+  color: rgb(142, 140, 140);
+}
+
+.vid{
+  margin: 0.5rem;
+  border-radius: 10px;
+  border: solid 3px rgb(16, 1, 1);
+  width: 99%;
+  height: 75vh;
+  object-fit: unset;  
+}
+
+@media screen and (max-width:500px) {
+  
+  .vid{
+    height: 40vh;
+  }
+  .container .card {
+    position: relative;
+    width: 168px;
+    height: 247px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}
+.cart-img{
+  width: 12rem;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.catalogue{
+  background: linear-gradient(to right, rgb(237, 233, 233),rgb(101, 98, 98));
+}
+body{
+  background:  rgb(237, 233, 233);
+
 }
